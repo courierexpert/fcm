@@ -48,9 +48,7 @@
     "release:minor": "standard-version release --release-as minor",
     "release:major": "standard-version release --release-as major",
     "contributors:add": "all-contributors add",
-    "contributors:gen": "all-contributors generate",
-    "build:component": "rollup -c build/rollup.config.js",
-    "prepare": "yarn build:component || npm run build:component"
+    "contributors:gen": "all-contributors generate"
   },
   "devDependencies": {
     "@capacitor/android": "^5.0.1",
